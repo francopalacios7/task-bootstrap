@@ -1,7 +1,7 @@
 let section = document.getElementById("upcoming-section")
 
 function cards(content) {
-    return `<section id="section" class="card m-5 m-sm-4 m-md-3" style="width: 18rem;">
+    return `<section id="section" class="card m-5 m-sm-4 m-md-3" style="width: 22rem;">
     <img src=${content.image} class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">${content.name}</h5>
