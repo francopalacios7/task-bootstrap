@@ -40,7 +40,7 @@
       </nav>
     </header>
     <main class="bg-secondary vh-lg-100 m-5">
-        <table class="table table-bordered bg-dark text-light">
+        <table class="table table-bordered bg-dark text-light" id="table1">
             <thead>
               <tr>
                 <th colspan="12" scope="col">Events Statistics</th>
@@ -48,85 +48,33 @@
             </thead>
             <tbody>
               <tr>
-                <td colspan="4">Events with the highest percetaje of attendance</td>
-                <td colspan="4">Events with the lowest percetaje of attendance</td>
+                <td colspan="4">Events with the highest percentage of attendance</td>
+                <td colspan="4">Events with the lowest percentage of attendance</td>
                 <td colspan="4">Event with larger capacity</td>
               </tr>
               <tr>
-                <td colspan="4">.</td>
-                <td colspan="4">.</td>
-                <td colspan="4">.</td>
+                <td colspan="4" id="col1">.</td>
+                <td colspan="4" id="col2">.</td>
+                <td colspan="4" id="col3">.</td>
               </tr>
             </tbody>
           </table>
-          <table class="table table-bordered bg-dark text-light ">
+          <table class="table table-bordered bg-dark text-light">
             <thead>
               <tr>
                 <th colspan="12"  scope="col">Upcoming Events statistics by category</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>Category</td>
-                <td>Revenue</td>
-                <td>percetaje of attendance</td>
-              </tr>
-              <tr>
-                <td>.</td>
-                <td>.</td>
-                <td>.</td>
-              </tr>
-              <tr>
-                <td>.</td>
-                <td>.</td>
-                <td>.</td>
-              </tr>
-              <tr>
-                <td>.</td>
-                <td>.</td>
-                <td>.</td>
-              </tr>
-            </tbody>
           </table>
-          <table class="table table-bordered bg-dark text-light ">
+          <div id="div-table"></div>
+          <table class="table table-bordered bg-dark text-light">
             <thead>
               <tr>
-                <th colspan="12"  scope="col">Events Statistics</th>
+                <th colspan="12"  scope="col">Events statistics by category</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td colspan="4">Category</td>
-                <td colspan="4">Revenue</td>
-                <td colspan="4">percetaje of attendance</td>
-              </tr>
-              <tr>
-                <td colspan="4">.</td>
-                <td colspan="4">.</td>
-                <td colspan="4">.</td>
-              </tr>
-              <tr>
-                <td colspan="4">.</td>
-                <td colspan="4">.</td>
-                <td colspan="4">.</td>
-              </tr>
-              <tr>
-                <td colspan="4">.</td>
-                <td colspan="4">.</td>
-                <td colspan="4">.</td>
-              </tr>
-              <tr>
-                <td colspan="4">.</td>
-                <td colspan="4">.</td>
-                <td colspan="4">.</td>
-              </tr>
-              <tr>
-                <td colspan="4">.</td>
-                <td colspan="4">.</td>
-                <td colspan="4">.</td>
-              </tr>
-            </tbody>
           </table>
+          <div id="div-table2"></div>
     </main>
     <footer class="bg-secondary">
         <div>
@@ -137,5 +85,6 @@
         <p class="w-25">Cohort 47</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="../script/stats.js"></script>
 </body>
 </html>
